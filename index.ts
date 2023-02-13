@@ -134,8 +134,8 @@ web3.eth.accounts.wallet.add(private_key)
 app.use(express.static(path.join(__dirname, '../client/build')));
 
 app.get('/*', (req: Request, res: Response) => {
-	return res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
-	// return res.send('Bitoro Network')
+	// return res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
+	return res.send('Bitoro Network')
 });
 
 // if (process.env.NODE_ENV === 'production') {
