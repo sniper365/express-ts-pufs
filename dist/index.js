@@ -104,9 +104,9 @@ web3.eth.accounts.wallet.add(private_key);
     //   console.log('Connection closed')
     // })
 }))()).then(() => console.log('Done')).catch(console.error);
-app.use(express_1.default.static(path_1.default.join(__dirname, '../client/build')));
+app.use(express_1.default.static(path_1.default.join(__dirname, './client/build')));
 app.get('/*', (req, res) => {
-    return res.sendFile(path_1.default.join(__dirname, '../client/build', 'index.html'));
+    return res.sendFile(path_1.default.join(__dirname, './client/build', 'index.html'));
     // return res.send('Bitoro Network')
 });
 // if (process.env.NODE_ENV === 'production') {
@@ -119,4 +119,3 @@ const port = process.env.PORT || 8000;
 app.listen(port, () => {
     console.log(`Example app listening on port ${port}`);
 });
-//# sourceMappingURL=index.js.map

@@ -171,4 +171,3 @@ var OnboardingActionString;
     OnboardingActionString["ONBOARDING"] = "dYdX Onboarding";
     OnboardingActionString["KEY_DERIVATION"] = "dYdX STARK Key";
 })(OnboardingActionString = exports.OnboardingActionString || (exports.OnboardingActionString = {}));
-//# sourceMappingURL=types.js.map
