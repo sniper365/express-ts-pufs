@@ -65,20 +65,20 @@ web3.eth.accounts.wallet.add(private_key)
     const user: { user: UserResponseObject } = await client.private.getUser();
     console.log('user:::', user)
 
-    const order: { order: OrderResponseObject } = await client.private.createOrder(
-      {
-        side: OrderSide.SELL,
-        type: OrderType.LIMIT,
-        timeInForce: TimeInForce.GTT,
-        postOnly: false,
-        size: '100',
-        price: '18000',
-        limitFee: '0.015',
-        expiration: '2023-02-21T21:30:20.200Z',
-        market: Market.BTC_USD
-      },
-      '1', // required for creating the order signature
-    );
+    // const order: { order: OrderResponseObject } = await client.private.createOrder(
+    //   {
+    //     side: OrderSide.SELL,
+    //     type: OrderType.LIMIT,
+    //     timeInForce: TimeInForce.GTT,
+    //     postOnly: false,
+    //     size: '100',
+    //     price: '18000',
+    //     limitFee: '0.015',
+    //     expiration: '2023-02-21T21:30:20.200Z',
+    //     market: Market.BTC_USD
+    //   },
+    //   '1', // required for creating the order signature
+    // );
 
     const msg = {
       type: 'subscribe',
@@ -131,11 +131,11 @@ web3.eth.accounts.wallet.add(private_key)
 
 
 
-app.use(express.static(path.join(__dirname, '../client/build')));
+app.use(express.static(path.join(__dirname, './client/build')));
 
 app.get('/*', (req: Request, res: Response) => {
-	res.sendFile(path.join(__dirname, '../client/build', 'index.html'));
-	return res.send('Bitoro Network')
+	return res.sendFile(path.join(__dirname, './client/build', 'index.html'));
+	// return res.send('Bitoro Network')
 });
 
 // if (process.env.NODE_ENV === 'production') {
