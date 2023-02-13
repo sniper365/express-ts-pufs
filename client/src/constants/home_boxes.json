@@ -1,0 +1,38 @@
+[
+  {
+    "id": "first",
+    "icon": "brandmark-design1.svg", 
+    "title": "Zero Price Impact",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  },
+  {
+    "id": "second",
+    "icon": "brandmark-design2.svg", 
+    "title": "Up to 100x leverage",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  },
+  {
+    "id": "third",
+    "icon": "brandmark-design3.svg", 
+    "title": "Self-custody",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  },
+  {
+    "id": "fourth",
+    "icon": "brandmark-design4.svg", 
+    "title": "Aggregated Liquidity",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  },
+  {
+    "id": "fifth",
+    "icon": "brandmark-design5.svg", 
+    "title": "Multi-chain Native",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  },
+  {
+    "id": "sixth",
+    "icon": "brandmark-design6.svg", 
+    "title": "Fastest Execution",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "id": "second",
+    "icon": "brandmark-design2.svg", 
+    "title": "Trading Volume",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  },
+  {
+    "id": "third",
+    "icon": "brandmark-design3.svg", 
+    "title": "Trades",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  },
+  {
+    "id": "fourth",
+    "icon": "brandmark-design4.svg", 
+    "title": "Open Interest",
+    "description":"$100 or $1,000,000 position, the price impact will always be 0%"
+  }
+]

@@ -1,0 +1,101 @@
+@media (min-height: 330px) {
+  .TVChartContainer {
+    height: calc(100vh + 40px);
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (min-height: 440px) {
+  .TVChartContainer {
+    height: calc(82vh);
+  }
+}
+
+@media (min-height: 480px) {
+  .TVChartContainer {
+    height: calc(75vh);
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-height: 528px) {
+  .TVChartContainer {
+    height: calc(68vh);
+  }
+}
+
+@media (min-height: 600px) {
+  .TVChartContainer {
+    height: calc(60vh);
+  }
+}
+
+@media (min-height: 640px) {
+  .TVChartContainer {
+    height: calc(57vh);
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (min-height: 661px) {
+  .TVChartContainer {
+    height: calc(55vh);
+  }
+}
+@media (min-height: 690px) {
+  .TVChartContainer {
+    height: calc(52vh);
+  }
+}
+@media (min-height: 720px) {
+  .TVChartContainer {
+    height: calc(50vh);
+  }
+}
+@media (min-height: 757px) {
+  .TVChartContainer {
+    height: calc(48vh);
+  }
+}
+@media (min-height: 768px) {
+  .TVChartContainer {
+    height: calc(47vh);
+  }
+}
+@media (min-height: 800px) {
+  .TVChartContainer {
+    height: calc(45vh);
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+
+@media (min-height: 860px) {
+  .TVChartContainer {
+    height: calc(41vh);
+  }
+}
+
+@media (min-height: 900px) {
+  .TVChartContainer {
+    height: calc(40vh);
+  }
+}
+
+@media (min-height: 960px) {
+  .TVChartContainer {
+    height: calc(38vh);
+  }
+}
+
+@media (min-height: 1024px) {
+  .TVChartContainer {
+    height: calc(35vh);
+  }
+}
+
+@media (min-height: 1322px) {
+  .TVChartContainer {
+    height: calc(28vh);
+  }
+}
+

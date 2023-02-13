@@ -1,0 +1,25 @@
+{
+    "type": "subscribed",
+    "connection_id": "b2bb0c66-e42a-45ad-8d19-b0ca5d2a307a",
+    "message_id": 1,
+    "channel": "v3_accounts",
+    "id": "3d0bcdd2-5147-5725-8c4c-70aa01686f52",
+    "contents": {
+        "orders": [],
+        "account": {
+            "starkKey": "0699774e3c94d5205feb1a045a24e83df3255e31debfe7c03ddb72d94b648efc",
+            "positionId": "284865",
+            "equity": "0.000000",
+            "freeCollateral": "0.000000",
+            "pendingDeposits": "0.000000",
+            "pendingWithdrawals": "0.000000",
+            "openPositions": {},
+            "accountNumber": "0",
+            "id": "3d0bcdd2-5147-5725-8c4c-70aa01686f52",
+            "quoteBalance": "0.000000",
+            "createdAt": "2023-02-08T12:51:54.865Z"
+        },
+        "transfers": [],
+        "fundingPayments": []
+    }
+}
