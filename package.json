@@ -24,9 +24,15 @@
 		"nodemon": "^2.0.20",
 		"pre-commit": "^1.2.2",
 		"ts-node": "^10.9.1",
-		"typescript": "^4.8.4"
+		"typescript": "^4.8.4",
+		"@types/cors": "^2.8.13",
+		"@types/ws": "^8.5.4",
+		"concurrently": "^7.6.0"
 	},
 	"dependencies": {
-		"express": "^4.18.2"
+		"express": "^4.18.2",
+		"@dydxprotocol/v3-client": "^1.14.1",
+		"cors": "^2.8.5",
+		"dotenv": "^16.0.3"
 	}
 }
